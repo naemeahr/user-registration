@@ -1,0 +1,89 @@
+body {
+    font-family : Playfair Display , sans-serif;
+    /* background-color :#f4f4f4; */
+    background: linear-gradient(to right ,#929ba3,#e1e1e6);
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    height : 100vh;
+    margin : 0px;
+}
+
+.container {
+
+    background-color : white;
+    padding : 20px;
+    border-radius : 20px;
+    box-shadow : 0 0 10px rgba(0,0,0,0.1);
+    width : 300px;
+}
+
+
+h2 {
+    text-align : center;
+    margin-bottom : 20px;
+}
+
+label {
+    display:block;
+    margin-bottom:7px;
+
+}
+
+input {
+    width:250px;
+    height: 22px;
+    border:2px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+    display: grid; 
+    justify-content: center;
+   
+}
+
+button {
+    width: 250px;
+    height: 25px;
+    padding: 10px;
+    background-color: #28a745;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    cursor:pointer;
+    display:grid;
+    text-align: center;
+    justify-content: center;
+    margin: 15px auto;
+}
+
+button:hover {
+    background-color: #246d31;
+    transition: background-color 0.5s ease , opacity 0.5s ease;
+}
+
+
+.errorBox {
+    background-color:rgba(255, 0, 0, 0.5);
+    color:rgb(119, 4, 4);
+    border:0.5px solid red;
+    padding: 0.8PX;
+    margin-top:10px;
+    border-radius: 5px;
+    display:none;
+    line-height: 0.9em;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+

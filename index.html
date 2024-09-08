@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fa">
+<link>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+   <link rel ="stylesheet" href="styles/index.css">
+
+</head>
+<body>
+    <div class="container"> 
+        <h2> User Registration</h2>
+        <form id="RegistrationForm" action="home.html" method="get" > 
+            <label for="name">Name :</label>
+            <input type="text" id="nameValue" name="name" required>
+            <label for="userName">UserName : </label>
+            <input type="text" id="userNameValue" name="userName" required>
+            <label for="age">Age :</label>
+            <input type="number" id="ageValue" name="age" min="1" max="90">
+            <label for="email"> Email :</label>
+            <input type="email" id="emailValue" name="email" required>
+            <label for="password"> Password :</label>
+            <input type="password" id="passwordValue" name="password" required>
+            <label for="confrimPassword">ConfirmPassword :</label>
+            <input type="confirmPassword" id="confirmPasswordValue" name="confirmPassword" required>
+           
+            <button type="submit">Sign up</button>
+        </form>
+       
+        <div class="errorBox" id="errorBox"></div>
+    </div>
+
+   
+
+    <script src="script/index.js"></script>
+
+</body>
+</html>
+
